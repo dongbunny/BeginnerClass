@@ -33,9 +33,7 @@ public class volatileSample {
                 }
             }
         }
-
     }
-
 
     static class MuitiThread2 extends Thread {
 
@@ -52,11 +50,5 @@ public class volatileSample {
                 count = ++val;
             }
         }
-
-
-
-
-
-
     }
 }
