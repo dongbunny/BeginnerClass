@@ -24,12 +24,9 @@ package sample;
 }*/
 
 class FreshJuice {
-
     public static void main(String arg[]) {
-
         // switch文の使い方
         /*Fruit fruit_type = Fruit.Orange;
-
         switch(fruit_type) {
 
             case Orange:
@@ -49,13 +46,10 @@ class FreshJuice {
         /*if (Fruit.Orange == Fruit.valueOf("Orange")) {
             System.out.println("一緒です。");
         }*/
-
         //values
         for(Fruit fruit : Fruit.values()) {
             System.out.println(fruit);
         }
-
-
     }
 
     protected enum Fruit {
